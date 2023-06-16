@@ -1,0 +1,223 @@
+<!doctype html>  
+<html>  
+<head>  
+<title>Unity Hospital| Call Ambulance</title>  
+<meta charset="utf-8"/>  
+<!-- Web Fonts -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
+
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- CSS Header and Footer -->
+<link rel="stylesheet" href="assets/css/header.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="assets/plugins/line-icons-pro/styles.css">
+<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+<!-- CSS Customization -->
+<link rel="stylesheet" href="assets/css/custom.css"> 
+<div class="header-v1">
+    <!-- Topbar -->
+    <div class="topbar-v1">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+        <ul class="list-inline top-v1-contacts">
+        <li>
+        <i class="fa fa-envelope"></i> Email: students@sggs.ac.in
+        </li>
+        <li>
+        <i class="fa fa-phone"></i> Contact no : 9876543210
+<!-- Navbar -->
+<div class="navbar mega-menu" role="navigation">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="res-container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+
+    <div class="navbar-brand">
+        <a href="index.html">
+        <img src="assets/img/logo/unity_white.jpg" alt="Logo">
+        </a>
+    </div>
+    </div><!--/end responsive container-->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-responsive-collapse">
+    <div class="res-container">
+        <ul class="nav navbar-nav">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+            <!-- Home  -->
+            <li class="mega-menu-fullwidth">
+            <a href="index.html" >
+            HOME
+            </a>
+
+            </li>
+            <!-- End Home-->
+
+            <!-- About Us -->
+            <li class="mega-menu-fullwidth">
+            <a href="about.html" >
+            ABOUT US
+            </a>	
+            </li>
+            <!-- End About us -->
+
+            <!-- Doctors -->
+            <li class="mega-menu-fullwidth">
+            <a href="doctors.html" >
+            DOCTORS
+            </a>
+
+            </li>
+            <!-- End Doctors -->
+
+
+            <!-- Gallery -->
+            <li class="mega-menu-fullwidth">
+            <a href="gallery.html" >
+            GALLERY
+            </a>
+
+            </li>
+            <!-- End Gallery -->
+
+
+            <!-- Blog -->
+            <li class="mega-menu-fullwidth">
+            <a href="blog.html" >
+            BLOGS
+            </a>	
+            </li>
+            <!-- End Blog -->
+
+            <!-- Contact Us -->
+            <li class="mega-menu-fullwidth">
+            <a href="contact.html" >
+            CONTACT US
+            </a>	
+            </li>
+            <!-- End Contact us -->
+
+            <!-- Registration -->
+            <li class="mega-menu-fullwidth">
+            <a href="registration.html" >
+            REGISTRATION
+            </a>	
+            </li>
+            <!-- End registration -->
+
+            <!-- login -->
+            <li class="mega-menu-fullwidth">
+            <a href="login.html" >
+            LOGIN
+            </a>	
+            </li>
+            <!-- End login -->
+
+            <!-- Appointment -->
+            <li class="mega-menu-fullwidth">
+            <a href="appointment.html">
+                BOOK APPOINTMENT
+
+            </a>
+
+            </li>
+            <!-- End Appointment -->
+
+        </ul>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- End Navbar -->
+
+<div class="container content">
+    <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+
+    <form onsubmit="showMsg(0);return false;" method="post" class="reg-page">
+        
+    <div class="reg-header">
+    <h2>Call Ambulance</h2>
+    <label for="amb">Choose a Ambulance:</label>
+    <select id="amb" name="amb" >
+        <option value="2020">MH 26 AB 2020</option>
+        <option value="4040">MH 26 BB 4040</option>
+        <option value="5050">MH 26 CB 5050</option>
+        <option value="6060">MH 26 DB 6060</option>
+</select>
+    </div>
+
+    <label>First Name</label>
+    <input type="text" class="form-control " style="margin-bottom: 20px;" required="">
+
+    <label>Last Name</label>
+    <input type="text" class="form-control " style="margin-bottom: 20px;" required="">
+
+    <label>Mobile Number <span class="color-red">*</span></label>
+    <input type="text" class="form-control " style="margin-bottom: 20px;" required="">
+
+ 
+    <div class="alert alert-success successBox">
+    <button type="button" class="close" onclick="showMsg(1);">×</button>
+    <strong style="font-size: 16px;">Ambulance will reach to you soon!</strong><span class="alert-link"> You Have Successfully called the ambulance.</span>
+    </div>
+
+    
+    <hr>
+
+
+    <div class="col-lg-7 text-right">
+    <button class="btn-u" type="submit" >Call  Ambulance</button>
+    <br>
+    <br>
+    <h4 >Want to track your Ambulance ?</h4>
+					<p>click <a class="color-green" href="http://192.168.159.18/", class="btn-u pull-right"> here</a> to track the location.</p>
+    </div>
+   
+    <!-- <div class="col-lg-7 text-right">
+        <!-- <button class="btn-u" type="submit" id='button'  onclick="FbotonOn()" >Call  Ambulance</button> -->
+        <!-- <input type="button" class="btn-u" id='button' value = "Call Ambulance " onclick="FbotonOn()">
+        <p id="texto", class="my"></p>
+        
+        <p class ="my">Click <a href="https://maps.google.com/" class="btn-u">here</a> to track the location of Ambulance</p>
+    </div> --> 
+
+    
+    </div>
+    </form>
+    </div>
+    </div>
+    </div><!--/container-->
+
+
+</body>  
+</html>  
+
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+	function showMsg(flag){
+	if(flag==0){
+	$('.successBox').css('display', 'block');
+	}else{
+	$('.successBox').css('display', 'none');
+	}
+	}
+	</script>
